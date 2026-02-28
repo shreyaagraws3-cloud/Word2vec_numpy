@@ -1,0 +1,16 @@
+Word2vec is a shallow, two-layer neural network technique developed by Google that converts text into numerical vectors (word embeddings) to capture semantic relationships and meanings. It analyzes large text corpora to represent words in a continuous vector space where similar words are closer together. It is primarily used for NLP tasks like sentiment analysis, machine translation, and search relevance. 
+
+Key Aspects of Word2Vec:
+
+Purpose: Converts unstructured text into high-dimensional vectors, enabling mathematical operations on words (e.g., king - man + woman = queen).
+
+Core Principle: Words that appear in similar contexts tend to have similar meanings.
+
+Architectures:
+
+Continuous Bag-of-Words (CBOW): Predicts a target word based on surrounding context words.
+
+Skip-gram: Predicts surrounding context words based on a single target word.
+Applications: Used in search relevance, sentiment analysis, content recommendation, and word similarity detection. 
+
+Word2vec is crucial because it allows computer models to understand the semantic, rather than just syntactic, relationships between words.
